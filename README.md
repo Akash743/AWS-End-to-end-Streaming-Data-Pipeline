@@ -1,11 +1,16 @@
 # AWS-End-to-end-Streaming-Data-Pipeline
 
 
-![AWS-Project-image](https://user-images.githubusercontent.com/57750483/195297243-3460f0d1-2706-4fdf-87f5-b11ea43d75bd.png)
-
 **Project flow:**
 
-The project depicts an end-to-end streaming data pipeline. Streaming data is purchase data  involving the following steps:
+The project depicts an end-to-end streaming data pipeline. 
+Streaming data is generated from a csv having purchase data collected at a PoS machine. It has information like Product_ID, Customer_ID, Description of the product purchased, Quantity, Price of product, etc.
+
+The data pipeline flow is as follows:
+
+
+![AWS-Project-image](https://user-images.githubusercontent.com/57750483/195297243-3460f0d1-2706-4fdf-87f5-b11ea43d75bd.png)
+
 
 1. Transferring data from local system to AWS Kinesis data stream via AWS API-gateway.
 
